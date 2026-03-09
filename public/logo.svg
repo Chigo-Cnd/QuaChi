@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Atom-Flask Icon -->
+  <g transform="translate(4, 4)">
+    <!-- Flask body -->
+    <path d="M18 2 L18 20 L8 40 Q6 44 10 46 L30 46 Q34 44 32 40 L22 20 L22 2 Z"
+          fill="#EFF6FF" stroke="#2563EB" stroke-width="1.5" stroke-linejoin="round"/>
+    <!-- Flask neck top -->
+    <rect x="16" y="0" width="8" height="4" rx="1" fill="#2563EB"/>
+    <!-- Liquid in flask -->
+    <path d="M10 38 Q9 42 10.5 44 L29.5 44 Q31 42 30 38 L20 20 Z"
+          fill="#2563EB" opacity="0.2"/>
+    <!-- Bubbles -->
+    <circle cx="16" cy="36" r="1.5" fill="#60A5FA" opacity="0.7"/>
+    <circle cx="22" cy="30" r="1" fill="#60A5FA" opacity="0.5"/>
+    <circle cx="19" cy="40" r="1" fill="#93C5FD" opacity="0.6"/>
+    <!-- Orbit ring 1 (horizontal) -->
+    <ellipse cx="20" cy="24" rx="11" ry="4" stroke="#2563EB" stroke-width="1" fill="none" opacity="0.6"/>
+    <!-- Orbit ring 2 (tilted left) -->
+    <ellipse cx="20" cy="24" rx="11" ry="4" stroke="#3B82F6" stroke-width="1" fill="none" opacity="0.6"
+             transform="rotate(60 20 24)"/>
+    <!-- Orbit ring 3 (tilted right) -->
+    <ellipse cx="20" cy="24" rx="11" ry="4" stroke="#60A5FA" stroke-width="1" fill="none" opacity="0.6"
+             transform="rotate(-60 20 24)"/>
+    <!-- Nucleus -->
+    <circle cx="20" cy="24" r="2.5" fill="#2563EB"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="52" y="26" font-family="system-ui, -apple-system, sans-serif"
+        font-size="22" font-weight="800" fill="#0F172A" letter-spacing="-0.5">
+    QuaChi
+  </text>
+  <text x="52" y="42" font-family="system-ui, -apple-system, sans-serif"
+        font-size="9" font-weight="400" fill="#64748B" letter-spacing="0.5">
+    QUANTITATIVE CHEMISTRY LABORATORY
+  </text>
+
+  <!-- By QuaModels -->
+  <text x="52" y="54" font-family="system-ui, -apple-system, sans-serif"
+        font-size="7.5" font-weight="300" fill="#94A3B8" letter-spacing="0.3">
+    by QuaModels
+  </text>
+</svg>
