@@ -38,7 +38,7 @@ class EventBus {
 }
 
 // ─── Default Conditions ────────────────────────────────
-const DEFAULT_CONDITIONS: SimulationConditions = {
+export const DEFAULT_CONDITIONS: SimulationConditions = {
   temperature: 298.15,   // 25°C (SATP)
   pressure:    1.0,      // atm
   volume:      1.0,      // L
