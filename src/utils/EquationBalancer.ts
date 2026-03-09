@@ -238,7 +238,7 @@ export function findLimitingReagent(
     stepNumber:  3,
     description: 'Smallest ratio → limiting reagent',
     expression:  `Limiting reagent: ${limiting.formula} (ratio = ${limiting.ratio.toFixed(4)})`,
-    value:       limiting.ratio,
+    result:    limiting.ratio,
     unit:        'mol/coeff',
   });
 
@@ -253,7 +253,7 @@ export function findLimitingReagent(
     stepNumber:  4,
     description: `Calculate theoretical yield of ${firstProduct?.formula}`,
     expression:  `n(${firstProduct?.formula}) = ${limiting.ratio.toFixed(4)} × ${productCoeff} = ${yieldMoles.toFixed(4)} mol = ${yieldGrams.toFixed(3)} g`,
-    value:       yieldGrams,
+    result:    yieldGrams,
     unit:        'g',
   });
 
@@ -377,3 +377,4 @@ export function halfLife(lambda: number): number {
 export function decayConstant(halfLifeTime: number): number {
   return Math.LN2 / halfLifeTime;
 }
+
